@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		28F3C55B255A563500EF1710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3C55A255A563500EF1710 /* AppDelegate.swift */; };
-		28F3C55D255A563500EF1710 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3C55C255A563500EF1710 /* ContentView.swift */; };
 		28F3C55F255A563700EF1710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F3C55E255A563700EF1710 /* Assets.xcassets */; };
-		28F3C562255A563700EF1710 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F3C561255A563700EF1710 /* Preview Assets.xcassets */; };
 		28F3C565255A563700EF1710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F3C563255A563700EF1710 /* Main.storyboard */; };
-		28F3C571255A563800EF1710 /* DragProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3C570255A563800EF1710 /* DragProTests.swift */; };
-		28F3C57C255A563800EF1710 /* DragProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3C57B255A563800EF1710 /* DragProUITests.swift */; };
+		28F3C5A6255A89FF00EF1710 /* PopMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3C5A5255A89FF00EF1710 /* PopMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,20 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28F3C557255A563500EF1710 /* DragPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F3C557255A563500EF1710 /* StatusbarPopMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusbarPopMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F3C55A255A563500EF1710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28F3C55C255A563500EF1710 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28F3C55E255A563700EF1710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		28F3C561255A563700EF1710 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28F3C564255A563700EF1710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28F3C566255A563700EF1710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28F3C567255A563700EF1710 /* DragPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DragPro.entitlements; sourceTree = "<group>"; };
-		28F3C56C255A563800EF1710 /* DragProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28F3C570255A563800EF1710 /* DragProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragProTests.swift; sourceTree = "<group>"; };
-		28F3C572255A563800EF1710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28F3C577255A563800EF1710 /* DragProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28F3C57B255A563800EF1710 /* DragProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragProUITests.swift; sourceTree = "<group>"; };
-		28F3C57D255A563800EF1710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F3C567255A563700EF1710 /* StatusbarPopMenu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StatusbarPopMenu.entitlements; sourceTree = "<group>"; };
+		28F3C56C255A563800EF1710 /* StatusbarPopMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusbarPopMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F3C577255A563800EF1710 /* StatusbarPopMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusbarPopMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F3C5A5255A89FF00EF1710 /* PopMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +70,7 @@
 		28F3C54E255A563400EF1710 = {
 			isa = PBXGroup;
 			children = (
-				28F3C559255A563500EF1710 /* DragPro */,
-				28F3C56F255A563800EF1710 /* DragProTests */,
-				28F3C57A255A563800EF1710 /* DragProUITests */,
+				28F3C559255A563500EF1710 /* StatusbarPopMenu */,
 				28F3C558255A563500EF1710 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,59 +78,32 @@
 		28F3C558255A563500EF1710 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28F3C557255A563500EF1710 /* DragPro.app */,
-				28F3C56C255A563800EF1710 /* DragProTests.xctest */,
-				28F3C577255A563800EF1710 /* DragProUITests.xctest */,
+				28F3C557255A563500EF1710 /* StatusbarPopMenu.app */,
+				28F3C56C255A563800EF1710 /* StatusbarPopMenuTests.xctest */,
+				28F3C577255A563800EF1710 /* StatusbarPopMenuUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28F3C559255A563500EF1710 /* DragPro */ = {
+		28F3C559255A563500EF1710 /* StatusbarPopMenu */ = {
 			isa = PBXGroup;
 			children = (
 				28F3C55A255A563500EF1710 /* AppDelegate.swift */,
-				28F3C55C255A563500EF1710 /* ContentView.swift */,
 				28F3C55E255A563700EF1710 /* Assets.xcassets */,
 				28F3C563255A563700EF1710 /* Main.storyboard */,
 				28F3C566255A563700EF1710 /* Info.plist */,
-				28F3C567255A563700EF1710 /* DragPro.entitlements */,
-				28F3C560255A563700EF1710 /* Preview Content */,
+				28F3C567255A563700EF1710 /* StatusbarPopMenu.entitlements */,
+				28F3C5A5255A89FF00EF1710 /* PopMenuViewController.swift */,
 			);
-			path = DragPro;
-			sourceTree = "<group>";
-		};
-		28F3C560255A563700EF1710 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				28F3C561255A563700EF1710 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		28F3C56F255A563800EF1710 /* DragProTests */ = {
-			isa = PBXGroup;
-			children = (
-				28F3C570255A563800EF1710 /* DragProTests.swift */,
-				28F3C572255A563800EF1710 /* Info.plist */,
-			);
-			path = DragProTests;
-			sourceTree = "<group>";
-		};
-		28F3C57A255A563800EF1710 /* DragProUITests */ = {
-			isa = PBXGroup;
-			children = (
-				28F3C57B255A563800EF1710 /* DragProUITests.swift */,
-				28F3C57D255A563800EF1710 /* Info.plist */,
-			);
-			path = DragProUITests;
+			path = StatusbarPopMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28F3C556255A563500EF1710 /* DragPro */ = {
+		28F3C556255A563500EF1710 /* StatusbarPopMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28F3C580255A563800EF1710 /* Build configuration list for PBXNativeTarget "DragPro" */;
+			buildConfigurationList = 28F3C580255A563800EF1710 /* Build configuration list for PBXNativeTarget "StatusbarPopMenu" */;
 			buildPhases = (
 				28F3C553255A563500EF1710 /* Sources */,
 				28F3C554255A563500EF1710 /* Frameworks */,
@@ -150,14 +113,14 @@
 			);
 			dependencies = (
 			);
-			name = DragPro;
+			name = StatusbarPopMenu;
 			productName = DragPro;
-			productReference = 28F3C557255A563500EF1710 /* DragPro.app */;
+			productReference = 28F3C557255A563500EF1710 /* StatusbarPopMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		28F3C56B255A563800EF1710 /* DragProTests */ = {
+		28F3C56B255A563800EF1710 /* StatusbarPopMenuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28F3C583255A563800EF1710 /* Build configuration list for PBXNativeTarget "DragProTests" */;
+			buildConfigurationList = 28F3C583255A563800EF1710 /* Build configuration list for PBXNativeTarget "StatusbarPopMenuTests" */;
 			buildPhases = (
 				28F3C568255A563800EF1710 /* Sources */,
 				28F3C569255A563800EF1710 /* Frameworks */,
@@ -168,14 +131,14 @@
 			dependencies = (
 				28F3C56E255A563800EF1710 /* PBXTargetDependency */,
 			);
-			name = DragProTests;
+			name = StatusbarPopMenuTests;
 			productName = DragProTests;
-			productReference = 28F3C56C255A563800EF1710 /* DragProTests.xctest */;
+			productReference = 28F3C56C255A563800EF1710 /* StatusbarPopMenuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		28F3C576255A563800EF1710 /* DragProUITests */ = {
+		28F3C576255A563800EF1710 /* StatusbarPopMenuUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28F3C586255A563800EF1710 /* Build configuration list for PBXNativeTarget "DragProUITests" */;
+			buildConfigurationList = 28F3C586255A563800EF1710 /* Build configuration list for PBXNativeTarget "StatusbarPopMenuUITests" */;
 			buildPhases = (
 				28F3C573255A563800EF1710 /* Sources */,
 				28F3C574255A563800EF1710 /* Frameworks */,
@@ -186,9 +149,9 @@
 			dependencies = (
 				28F3C579255A563800EF1710 /* PBXTargetDependency */,
 			);
-			name = DragProUITests;
+			name = StatusbarPopMenuUITests;
 			productName = DragProUITests;
-			productReference = 28F3C577255A563800EF1710 /* DragProUITests.xctest */;
+			productReference = 28F3C577255A563800EF1710 /* StatusbarPopMenuUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 28F3C552255A563400EF1710 /* Build configuration list for PBXProject "DragPro" */;
+			buildConfigurationList = 28F3C552255A563400EF1710 /* Build configuration list for PBXProject "StatusbarPopMenu" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +189,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28F3C556255A563500EF1710 /* DragPro */,
-				28F3C56B255A563800EF1710 /* DragProTests */,
-				28F3C576255A563800EF1710 /* DragProUITests */,
+				28F3C556255A563500EF1710 /* StatusbarPopMenu */,
+				28F3C56B255A563800EF1710 /* StatusbarPopMenuTests */,
+				28F3C576255A563800EF1710 /* StatusbarPopMenuUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,7 +202,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28F3C565255A563700EF1710 /* Main.storyboard in Resources */,
-				28F3C562255A563700EF1710 /* Preview Assets.xcassets in Resources */,
 				28F3C55F255A563700EF1710 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F3C55D255A563500EF1710 /* ContentView.swift in Sources */,
 				28F3C55B255A563500EF1710 /* AppDelegate.swift in Sources */,
+				28F3C5A6255A89FF00EF1710 /* PopMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +236,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F3C571255A563800EF1710 /* DragProTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F3C57C255A563800EF1710 /* DragProUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +251,12 @@
 /* Begin PBXTargetDependency section */
 		28F3C56E255A563800EF1710 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28F3C556255A563500EF1710 /* DragPro */;
+			target = 28F3C556255A563500EF1710 /* StatusbarPopMenu */;
 			targetProxy = 28F3C56D255A563800EF1710 /* PBXContainerItemProxy */;
 		};
 		28F3C579255A563800EF1710 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 28F3C556255A563500EF1710 /* DragPro */;
+			target = 28F3C556255A563500EF1710 /* StatusbarPopMenu */;
 			targetProxy = 28F3C578255A563800EF1710 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,14 +393,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DragPro/DragPro.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StatusbarPopMenu/StatusbarPopMenu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"DragPro/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = E65B967WDH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = DragPro/Info.plist;
+				INFOPLIST_FILE = StatusbarPopMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -457,14 +417,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DragPro/DragPro.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StatusbarPopMenu/StatusbarPopMenu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"DragPro/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = E65B967WDH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = DragPro/Info.plist;
+				INFOPLIST_FILE = StatusbarPopMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -494,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.lecon.DragProTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragPro.app/Contents/MacOS/DragPro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StatusbarPopMenu.app/Contents/MacOS/StatusbarPopMenu";
 			};
 			name = Debug;
 		};
@@ -516,7 +476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.lecon.DragProTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragPro.app/Contents/MacOS/DragPro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StatusbarPopMenu.app/Contents/MacOS/StatusbarPopMenu";
 			};
 			name = Release;
 		};
@@ -563,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28F3C552255A563400EF1710 /* Build configuration list for PBXProject "DragPro" */ = {
+		28F3C552255A563400EF1710 /* Build configuration list for PBXProject "StatusbarPopMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28F3C57E255A563800EF1710 /* Debug */,
@@ -572,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28F3C580255A563800EF1710 /* Build configuration list for PBXNativeTarget "DragPro" */ = {
+		28F3C580255A563800EF1710 /* Build configuration list for PBXNativeTarget "StatusbarPopMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28F3C581255A563800EF1710 /* Debug */,
@@ -581,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28F3C583255A563800EF1710 /* Build configuration list for PBXNativeTarget "DragProTests" */ = {
+		28F3C583255A563800EF1710 /* Build configuration list for PBXNativeTarget "StatusbarPopMenuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28F3C584255A563800EF1710 /* Debug */,
@@ -590,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28F3C586255A563800EF1710 /* Build configuration list for PBXNativeTarget "DragProUITests" */ = {
+		28F3C586255A563800EF1710 /* Build configuration list for PBXNativeTarget "StatusbarPopMenuUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28F3C587255A563800EF1710 /* Debug */,
